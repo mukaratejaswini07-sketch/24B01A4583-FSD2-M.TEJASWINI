@@ -1,21 +1,24 @@
 import React from "react";
 
 function App() {
-  return (
+  const student = (
     <div>
-      <h1>Student Study Corner</h1>
+      <h2>My Student Profile</h2>
 
-      <h2 style={{ color: "red" }}>Welcome Students</h2>
-
-      <p>Manage your studies and learn new things every day.</p>
-
-      <h3>My Subjects</h3>
+      <p>Welcome to my student profile.</p>
 
       <ul>
-        <li>Mathematics</li>
-        <li>Computer Science</li>
-        <li>English</li>
+        <li>Name: Anu</li>
+        <li>Course: AI & DS</li>
+        <li>Year: II Year</li>
       </ul>
+    </div>
+  );
+
+  return (
+    <div>
+      <h1>Writing Markup with JSX</h1>
+      {student}
     </div>
   );
 }
